@@ -9,6 +9,7 @@ header h1{
     text-align: center;
     padding-top:50px;
     margin: auto;
+    padding-bottom: 15px;
 }
 
 header p{
@@ -26,6 +27,7 @@ section{
     padding: 50px;
     box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.436);
     color:black;
+    text-align:center; 
 }
 
 div img{
@@ -40,6 +42,13 @@ div p{
     color: black;
 }
 
+p.img{
+    text-align:center; 
+    color: rgb(112, 112, 112);
+    font-style: italic;
+    padding-top: 15px;
+}
+
 footer{
     background-color: rgba(23, 24, 29, 0.3);
     padding: 20px;
@@ -47,4 +56,10 @@ footer{
     text-align:center;
     position: fixed;
     bottom: 0;
+}
+
+
+input#nome, input#idade {
+    display: block;
+    margin: 0 auto;
 }
